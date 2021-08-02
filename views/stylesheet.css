@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  header {
+    background: white;
+    width: -webkit-fill-available;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    display: flex;
+    padding: 0px 68px;
+    top: 0;
+    z-index: 22;
+    box-shadow: 0px 0px 10px 0px #00000026;
+}
+  header .logo{
+      display: flex;
+      /* height: 55px; */
+  }
+  header .logo h3{
+      margin: 19px 0px;
+      font-size :32px;
+      font-weight: 400;
+      color:#454b50;
+      letter-spacing: -2px;
+      text-transform: capitaloze;
+  }
+
+  header .logout {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    
+}
+ content .one {
+  text-align: left;
+  font-size: 27;
+  color: blue;
+  text-transform: capitalize;
+  }
