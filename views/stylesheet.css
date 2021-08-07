@@ -53,9 +53,40 @@
     right: 30px;
     
 }
- content.one.h1 {
-  text-align: left;
-  font-size: 27;
-  color: blue;
-  text-transform: capitalize;
+ 
+
+
+.bQneHs {
+  align-content: center;
+  background-color: transparent;
+  border: 1px dashed black;
+  border-radius: 0.625rem;
+  color:black;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  transition: background-color 300ms ease 0s, transform 300ms ease 0s;
+  will-change: background-color, transform;
+  max-width: 198px;
+  min-height: 198px;
+}
+  
+:root {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  
+  background-color: transparent;
+  
+  border-radius: 0.625rem;
+  color:black;
+  display: grid;
+  gap: 1rem;
+  transition: background-color 300ms ease 0s, transform 300ms ease 0s;
+  will-change: background-color, transform;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
   }
