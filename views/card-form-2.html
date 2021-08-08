@@ -43,7 +43,18 @@
     <br><br><br><br><br><br><br><br><br><br>
 
     <div class = "company-images" style="float: left;"> 
-        Logo : <input type="file" name="Logo">
+        <!-- Logo : <input type="file" name="Logo"> -->
+        
+<!-- changes start -->
+<h4>Upload Logo :</h4>
+<label class="filebutton">
+    <!-- Browse for file! -->
+    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+    <span><input type="file" id="myfile" name="myfile"></span>
+</label>
+
+<!-- changes end -->
+
     </div>
 
     <br>
@@ -60,7 +71,8 @@
     </div>
     
 
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
         
     <div class = "About-company" style="float: left;">
         <h2>About Company</h3>
@@ -81,7 +93,12 @@
         <h2>UPI Info</h3>
             UPI Id : <input type="text" name="upi-id"><br>
             UPI No. : <input type="tel" name="upi-no"><br>
-            QR code : <input type="file" name="qr-code">
+            QR Code : <br>
+            <label class="filebutton">
+                
+                <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                <span><input type="file" id="image6" name="image6"></span>
+        </label>
 
     </div>
     
@@ -89,32 +106,73 @@
     
     <div class = "bankaccount-details" style="float: right;">
         <h2>Bank Account Details</h3>
-            Name : <input type="text" name="upi-id"><br>
-            Account No. : <input type="number" name="upi-id"><br>
-            IFSC Code : <input type="text" name="upi-id"><br>
-            Bank Name : <input type="text" name="upi-id"><br>
+            Name : <input type="text" name="name><br>
+            Account No. : <input type="number" name="a/c-no"><br>
+            IFSC Code : <input type="text" name="ifsc-code"><br>
+            Bank Name : <input type="text" name="bank-name"><br>
     </div>
     
-    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
 
-    <div class = "images">
-        <h2>Images</h3>
-        Caption : <input type="text" Name ="caption1">
-        image : <input type="file" name="image1">     <br>         
-        Caption : <input type="text" Name ="caption2">
-        image : <input type="file" name="image2">     <br>
-        Caption : <input type="text" Name ="caption3">
-        image : <input type="file" name="image3">    <br>
-        Caption : <input type="text" Name ="caption4">
-        image : <input type="file" name="image4">     <br>
-        Caption : <input type="text" Name ="caption5">
-        image : <input type="file" name="image5">     
+    <div class = "images" >
+        <h2 style=" margin: 0 auto; width: 0px;">Images</h3>
+        <br><br>
+        
+    
+        <div class="image" style="float: left;" >
+            <label class="filebutton">
+                <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                <span><input type="file" id="image1" name="image1"></span>
+            </label><br>
+            <input type="text" Name ="caption1">
+        </div>
+                
+        <div class="image" style="float: left;">
+            <label class="filebutton">
+                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                    <span><input type="file" id="image2" name="image2"></span>
+            </label><br>
+            <input type="text" Name ="caption2">
+        </div>
+    
+        <div class="image"  style="float: left;">
+            <label class="filebutton">
+                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                    <span><input type="file" id="image3" name="image3"></span>
+            </label><br>
+            <input type="text" Name ="caption3">
+        </div>
+
+        <div class="image" style="float: left;">
+            <label class="filebutton">
+                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                    <span><input type="file" id="image4" name="image4"></span>
+            </label><br>
+            <input type="text" Name ="caption4">
+        </div>
+
+        <div class="image" style="float: left;">
+            <label class="filebutton">
+                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                    <span><input type="file" id="image5" name="image5"></span>
+            </label><br>
+            <input type="text" Name ="caption5">
+        </div>
+
+        <div class="image" style="float: left;">
+            <label class="filebutton">
+                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                    <span><input type="file" id="image6" name="image6"></span>
+            </label><br>
+            <input type="text" Name ="caption6">
+        </div>
     </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="buttons" style="float:right">
 
-        <button name="previous">Previous</button>
-        
+        <button name="previous"><a href="choose-temp.html">Previous</a></button>       
         <input type="submit" name ="submit">
         <input type="reset" name ="reset">
     </div>
