@@ -15,6 +15,7 @@
   h6,
   p,
   div {
+    margin: 0;
     padding: 0;
   }
   
@@ -35,7 +36,8 @@
 }
   header .logo{
       display: flex;
-    }
+      /* height: 55px; */
+  }
   header .logo h3{
       margin: 19px 0px;
       font-size :32px;
@@ -52,6 +54,8 @@
     
 }
  
+
+
 .bQneHs {
   align-content: center;
   background-color: transparent;
@@ -70,7 +74,9 @@
 :root {
   line-height: 1.15;
   text-size-adjust: 100%;
+  
   background-color: transparent;
+  
   border-radius: 0.625rem;
   color:black;
   display: grid;
@@ -78,7 +84,36 @@
   transition: background-color 300ms ease 0s, transform 300ms ease 0s;
   will-change: background-color, transform;
 }
-a {
+
+
+a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
   }
+
+
+
+  label.filebutton{
+      width:120px;
+      height:40px;
+      overflow:hidden;
+      position: relative;
+      background-color: #ccc;
+  }
+  label span input{
+      z-index: 999;
+      line-height:0;
+      font-size: 50px;
+      position: absolute;
+      top:-2px;
+      left :-700px;
+      opacity: 0;
+      filter: alpha(opacity = 0);
+      -ms-filter: "alpha(opacity=0";
+      cursor:pointer;
+      _cursor:hand;
+      margin:0;
+      padding:0;
+  }
+
+
