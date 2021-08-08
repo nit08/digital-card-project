@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="roll_of_paper_96px.png" type="image/ic">
+    <title>Login</title>
+</head>
+<body>
+    <form class="box" action="/" method="POST" id='form'>
+        <h1>LOGIN</h1><hr>
+        <Label for="uname">User Name</Label>
+        <input class="tbox" type="text" id="uname" name="uname">
+        <label for="pass">Password</label>
+        <input class="tbox" type="password" id="pass" name="pass">
+        <input class="btn" type="submit" value="Login">
+    </form>
+
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(()=>{
+            $('#form').submit((e)=>{
+                e.preventDefault();
+                $.ajax({
+                    url : '/',
+                    type: 'post',
+                    contentType: 'application/json',
+                    data: JSON.stringify($('#form').serializeArray()),
+                    success : (response)=>{
+                        console.log('got response');
+                        console.log(response);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
