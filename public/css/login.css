@@ -1,0 +1,67 @@
+body{
+    border: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url(wp7632117-maligne-lake-wallpapers.jpg);
+    color: aliceblue;
+}
+.box{
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba(7, 38, 61, 0.45);
+    border-radius: 30px;
+}
+.tbox{
+    border: 2px solid rgba(214, 228, 240, 0.514);
+    border-radius: 10px;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: aliceblue;
+    transition: width 0.5s ease;
+}
+.tbox:focus{
+    width: 300px;
+    border: 2px solid rgb(195, 229, 243);
+    transition: width 0.5s ease;
+}
+label{
+    color:rgba(240, 248, 255, 0.521)
+}
+.btn{
+    border: 2px solid rgba(229, 230, 231, 0.39);
+    border-radius: 10px;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: rgba(255, 255, 255);
+}
+.btn:hover{
+    background-color:  rgb(151, 208, 223);
+    transition: 0.3s;
+    color: rgb(5, 25, 43) ;
+
+}
+h1{
+    font-weight: 500;
+}
+hr{
+    margin: 25px;
+    margin-bottom: 60px; 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
