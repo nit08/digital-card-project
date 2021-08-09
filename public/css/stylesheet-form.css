@@ -21,6 +21,7 @@
   
   body {
     font-family: "Lucida Grande";
+    text-align: center;
   }
   header {
     background: white;
@@ -117,3 +118,16 @@ a, a:hover, a:focus, a:active {
   }
 
 
+  form{
+    display: inline-block;
+    /* background:green; */
+    border-radius: 10px;
+    padding:40px 45px;
+    border : 1px black;
+    box-shadow: 0 10px 8px rgb(0 0 0 / 10%);
+  
+}
+
+form .div{
+  display:inline-block;
+}
