@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +8,7 @@
     </head>
     <body>
        
-<header >
+        <header >
     <div class = "logo" style = "float: left;">
        <p> <a href = "https://feedgroupindia.com">
         <img src = "https://feedgroupindia.com/images/logo.png" height = 55px alt="Logo">
@@ -19,171 +21,216 @@
         <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/archive/8/8a/20180609204932%21OOjs_UI_icon_logOut-ltr.svg/120px-OOjs_UI_icon_logOut-ltr.svg.png" height= 45px>
     </a></p>
     </div>
-</header>
+        </header>
 
-<div class="content">
-    <!-- </label>    
-     -->
-<form >
-    <div class = "company-details" style="float: left;"> 
-        <h2>Company Details</h2>
-        Company Name : <input type="text" name="company-name"><br>
-        Email-id : <input type="email" name="email-id"><br>
-        Website : <input type="url" name="Website"><br>
-        Address : <textarea name="address" rows="4" cols="50"></textarea>
-    </div> 
-<br>
-    <div class = "personal-details" style="float: right;"> 
-        <h2>Personal Details</h3>
-        Name : <input type="text" name="name"><br>
-        Mobile No. : <input type="tel" name="mobile-no"><br>
-        Whatsapp No. : <input type="tel" name="whatapp-no"><br>
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br><br>
-
-    <div class = "company-images" style="float: left;"> 
-        <!-- Cover Image  : <input type="file" name="cover-image">
-        Logo : <input type="file" name="Logo"> -->
-    <div class="logo" Style="float:left;">
-
-<h4>Upload Logo :</h4>
-<label class="filebutton" >
-    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-    <span><input type="file" id="myfile" name="myfile"></span>
-</label>
-</div>
-
-<div class="cover-img" Style=" float:left">
-<h4>Upload cover image  :</h4>
-<label class="filebutton">
-    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-    <span><input type="file" id="myfile" name="myfile"></span>
-</label>
-    </div>
-</div>
-
-    <br>
-    
-    <div class = "socialmedia-links" style="float: right;">
-        <h2>Social Media Links</h3>
-            Website : <input type="url" name="Website"><br>
-            Instagram : <input type="url" name="Website"><br>
-            Youtube : <input type="url" name="Website"><br>
-            Linkedin : <input type="url" name="Website"><br>
-            Github : <input type="url" name="Website"><br>
-        
-
-    </div>
-    
-
-    <br><br><br><br><br><br><br><br><br><br>
-        
-    <div class = "About-company" style="float: left;">
-        <h2>About Company</h3>
-            <textarea name="about-company" rows="7" cols="70"></textarea>
-    </div>
-    
-    <br>
-    
-    <div class = "Youtube-links" style="float: right;">
-        <h2>Youtube Links</h3>
-            video title :<input type="text" name ="yt-title"><br>
-           link : <input type="url" name = "yt-link">
-    </div>
-    
-    <br><br><br><br><br><br><br><br>
-    
-    <div class = "upi-info" style="float: left;">
-        <h2>UPI Info</h3>
-            UPI Id : <input type="text" name="upi-id"><br>
-            UPI No. : <input type="tel" name="upi-no"><br>
-            QR Code : <br>
-            <label class="filebutton">
+        <div class="container">    
+            <form>
+            <div class="block-inputs">
                 
-                <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                <span><input type="file" id="image6" name="image6"></span>
-        </label>
+                <div class="company-details" style="float: left;">
+                    <h2>Company Details</h2>
+                    <div class="pre-input">
+                    <label for="companyName" class="label">Company Name</label>
+                    <input type="" placeholder="Enter company Name" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Email" class="label"> Email</label>
+                    <input type="" placeholder="E-mail Address" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Website" class="label">Website</label>
+                    <input type="" placeholder="Website" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Address" class="label">Address</label>
+                    <input type="" placeholder="Street Address" class="form-input borderaccent" value="">
+                    </div>
+                </div>
 
-    </div>
-    
-    <br>
-    
-    <div class = "bankaccount-details" style="float: right;">
-        <h2>Bank Account Details</h3>
-            Name : <input type="text" name="name><br>
-            Account No. : <input type="number" name="a/c-no"><br>
-            IFSC Code : <input type="text" name="ifsc-code"><br>
-            Bank Name : <input type="text" name="bank-name"><br>
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br><br><br>
+                <br>
+            
+                <div class = "personal-details" style="float: right;">
+                    <h2>Personal Details</h2>
+                    <div class="pre-input">
+                    <label for="Name" class="label">Full Name</label>
+                    <input type="" placeholder="Full Name" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Phone" class="label">Phone</label>
+                    <input type="" placeholder="Phone Number" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Whatsapp" class="label">whatsapp</label>
+                    <input type="" placeholder="Whatsapp Number" class="form-input borderaccent" value="">
+                    </div>
+                </div>
 
-    <div class = "images" >
-        <h2 style=" margin: 0 auto; width: 0px;">Images</h3>
-        <br><br>
-        
-    
-        <div class="image" style="float: left;" >
-            <label class="filebutton">
-                <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                <span><input type="file" id="image1" name="image1"></span>
-            </label><br>
-            <input type="text" Name ="caption1">
-        </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 
-        <div class="image" style="float: left;">
-            <label class="filebutton">
-                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                    <span><input type="file" id="image2" name="image2"></span>
-            </label><br>
-            <input type="text" Name ="caption2">
+                <div class="profile-picture" style="float: left;">
+                    <label class="filebutton">
+                        <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                        <span><input type="file" id="logo" name="logo"></span>
+                    </label>
+                    
+                </div>
+  
+
+                <br>
+                <div class="social-media" style="float: right;">
+                    <h2>Social Media Links</h2>
+                    <div class="pre-input">
+                    <label for="Website" class="label">Website</label>
+                    <input type="" placeholder="Website" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Instagram" class="label">Instagram</label>
+                    <input type="" placeholder="Instagram link" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Youtube" class="label">Youtube</label>
+                    <input type="" placeholder="Youtube Link" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Linkedin" class="label">Linkedin</label>
+                    <input type="" placeholder="Linkedin link" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="Github" class="label">Github</label>
+                    <input type="" placeholder="Github link" class="form-input borderaccent" value="">
+                    </div>
+                </div>
+                
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                <div class="about-company" style="float: left;">
+                    <h4>About Company</h4>
+                    <textarea name="about-company" rows="7" cols="50"></textarea>
+                </div>
+
+                <br>
+
+                <div class="youtube-links" style="float: right;">
+                    <h2>Youtube Video Links</h2>
+                    <div class="pre-input">
+                    <label for="title1" class="label">Video Title</label>
+                    <input type="" placeholder="Video title" class="form-input borderaccent" value="">
+                    <label for="video-link1" class="label">Link</label>
+                    <input type="" placeholder="video Link" class="form-input borderaccent" value="">
+                    </div>
+                    <div class="pre-input">
+                    <label for="title2" class="label">Video Title</label>
+                    <input type="" placeholder="Video title" class="form-input borderaccent" value="">
+                    <label for="video-link2" class="label">Link</label>
+                    <input type="" placeholder="video Link" class="form-input borderaccent" value="">
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+                <div class="payment-details">
+                    <h2>Payment Details</h2>
+                    <div class="upi-details" style="float: left;">
+                        <h3>UPI Details</h3>
+                        <div class="pre-input">
+                    <label for="upi-id" class="label">UPI ID</label>
+                    <input type="" placeholder="Enter UPI ID" class="form-input borderaccent" value="">
+                        </div>
+                        <div class="pre-input">
+                        <label for="upi-no" class="label">UPI NO</label>
+                        <input type="" placeholder="Enter UPI number" class="form-input borderaccent" value="">
+                        </div>
+                        <div class="pre-input">
+                    <label>QR Code</label><br>
+                    <label class="filebutton">
+                        <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                        <span><input type="file" id="qr-code" name="qr-code"></span>
+                    </label>
+                        </div>
+                    </div>
+                    <div class="bank-details" style="float: right;">
+                        <h3>Bank Account Details</h3>
+                        <div class="pre-input">
+                    <label for="a/c-holderName" class="label">Account Holder Name</label>
+                    <input type="" placeholder="Enter enter account holder" class="form-input borderaccent" value="">
+                        </div>
+                        <div class="pre-input">
+                    <label for="a/c-no" class="label">Account No.</label>
+                    <input type="" placeholder="Enter Account number" class="form-input borderaccent" value="">
+                        </div>
+                        <div class="pre-input">
+                    <label for="ifsc-code" class="label">IFSC Code</label>
+                    <input type="" placeholder="Enter enter IFSC Code" class="form-input borderaccent" value="">
+                        </div>
+                        <div class="pre-input">
+                    <label for="bank-name" class="label">Bank Name</label>
+                    <input type="" placeholder="Enter Bank Name" class="form-input borderaccent" value="">
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="pictures" >
+                    <h2>Images</h2>
+                
+                    <div class="pre-input" style="float: left;" >
+                    <label class="filebutton">
+                        <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                        <span><input type="file" id="image1" name="image1"></span>
+                    </label><br>
+                    <input type="text" Name ="caption1">
+                    </div>
+                        
+                    <div class="pre-input" style="float: left;">
+                    <label class="filebutton">
+                            <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                            <span><input type="file" id="image2" name="image2"></span>
+                    </label><br>
+                    <input type="text" Name ="caption2">
+                    </div>
+            
+                    <div class="pre-input"  style="float: left;">
+                    <label class="filebutton">
+                            <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                            <span><input type="file" id="image3" name="image3"></span>
+                    </label><br>
+                    <input type="text" Name ="caption3">
+                    </div>
+        
+                    <div class="pre-input" style="float: left;">
+                        <label class="filebutton">
+                            <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                            <span><input type="file" id="image4" name="image4"></span>
+                    </label><br>
+                    <input type="text" Name ="caption4">
+                    </div>
+        
+                    <div class="pre-input" style="float: left;">
+                    <label class="filebutton">
+                            <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                            <span><input type="file" id="image5" name="image5"></span>
+                    </label><br>
+                    <input type="text" Name ="caption5">
+                    </div>
+        
+                    <div class="pre-input" style="float: left;">
+                    <label class="filebutton">
+                            <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
+                            <span><input type="file" id="image6" name="image6"></span>
+                    </label><br>
+                    <input type="text" Name ="caption6">
+                    </div>
+                
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                
+                <button name="Previous"><a href="choose-temp.html">Previous</a></button>
+                <button name="next">Next</button>
+                
+            </div>
+        </form>
         </div>
     
-        <div class="image"  style="float: left;">
-            <label class="filebutton">
-                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                    <span><input type="file" id="image3" name="image3"></span>
-            </label><br>
-            <input type="text" Name ="caption3">
-        </div>
-
-        <div class="image" style="float: left;">
-            <label class="filebutton">
-                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                    <span><input type="file" id="image4" name="image4"></span>
-            </label><br>
-            <input type="text" Name ="caption4">
-        </div>
-
-        <div class="image" style="float: left;">
-            <label class="filebutton">
-                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                    <span><input type="file" id="image5" name="image5"></span>
-            </label><br>
-            <input type="text" Name ="caption5">
-        </div>
-
-        <div class="image" style="float: left;">
-            <label class="filebutton">
-                    <img src="https://toppng.com/uploads/preview/file-upload-image-icon-115632290507ftgixivqp.png" height="150px">
-                    <span><input type="file" id="image6" name="image6"></span>
-            </label><br>
-            <input type="text" Name ="caption6">
-        </div>
-    </div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <div class="buttons" style="float:right">
-
-        <button name="previous"><a href="choose-temp.html">Previous</a></button>        
-        <input type="submit" name ="submit">
-        <input type="reset" name ="reset">
-    </div>
-
-</div>
-
 
     </body>
 </html>
