@@ -11,6 +11,8 @@ app.use(express.static(publicDirectory));
 
 app.use(express.urlencoded({ extended: false }));
 
+app.use(cookie());
+
 app.use('/', require('./routes/pages'));
 app.use('/auth', require('./routes/auth'));
 
